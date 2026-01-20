@@ -1,6 +1,6 @@
 
 # Clipo - Development Roadmap & Future Features
-[![CodeQL Advanced](https://github.com/habibbenkhedher/Clipo/actions/workflows/codeql.yml/badge.svg?branch=main&event=check_run)](https://github.com/habibbenkhedher/Clipo/actions/workflows/codeql.yml)
+[![CodeQL Advanced](https://github.com/habibbenkhedher/Clipo/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/habibbenkhedher/Clipo/actions/workflows/codeql.yml)
 ## 📋 Table of Contents
 - [Phase 1: Core Improvements](#phase-1-core-improvements)
 - [Phase 2: Power User Features](#phase-2-power-user-features)
