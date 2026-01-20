@@ -83,16 +83,17 @@ jobs:
       if: matrix.build-mode == 'manual'
       shell: bash
       run: |
+        xcodebuild -workspace Clipo.xcworkspace \
+          -scheme YourScheme \
+          -destination 'platform=iOS Simulator,name=iPhone 15' \
+          -arch arm64 \
+          clean build
         # ========================================
         # REPLACE THE SECTION BELOW WITH YOUR PROJECT DETAILS
         # ========================================
         
         # Option 1: For iOS/macOS projects using Xcode Workspace (most common with CocoaPods)
-        xcodebuild -workspace YourApp.xcworkspace \
-          -scheme YourScheme \
-          -destination 'platform=iOS Simulator,name=iPhone 15' \
-          -arch arm64 \
-          clean build
+       
         
         # Option 2: For iOS/macOS projects using Xcode Project only (no CocoaPods)
         # xcodebuild -project YourApp.xcodeproj \
