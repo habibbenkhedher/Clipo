@@ -84,7 +84,7 @@ jobs:
       shell: bash
       run: |
         xcodebuild -workspace Clipo.xcworkspace \
-          -scheme YourScheme \
+          -scheme Clipo \
          -destination 'platform=macOS' \
           -arch arm64 \
           clean build
