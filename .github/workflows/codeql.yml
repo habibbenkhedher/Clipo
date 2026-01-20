@@ -83,7 +83,7 @@ jobs:
       if: matrix.build-mode == 'manual'
       shell: bash
       run: |
-        xcodebuild -workspace Clipo/Clipo.xcodeproj \
+        xcodebuild -project Clipo/Clipo.xcodeproj \
           -scheme Clipo \
          -destination 'platform=macOS' \
           -arch arm64 \
